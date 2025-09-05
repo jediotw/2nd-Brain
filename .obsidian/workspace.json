@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "d019ca4ca5b9b109",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a43022c942f30c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "759e54707bcf110c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a84d9dd7ac0fc0e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2093faedfd4a05e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "663f939d143c6673",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a98f822a047938bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "252e00c9cbd3e091",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "daf96e53e64024c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "de44fe74c6b20156",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "447bd4fc5757071d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algorithms/DSA revision.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DSA revision"
+            }
+          },
+          {
+            "id": "92472f127480e740",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Algorithms/DSA revision.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DSA revision"
+            }
+          },
+          {
+            "id": "05b4f0fcd6ce3dc9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b0dd506dc1989d5f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Algorithms/DSA revision.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DSA revision"
+            }
+          },
+          {
+            "id": "1bb119c97a75ee8f",
+            "type": "leaf",
+            "state": {
+              "type": "hackernews-view",
+              "state": {},
+              "icon": "hackernews",
+              "title": "HackerNews"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "759e54707bcf110c",
+  "lastOpenFiles": [
+    "Cold Mail Format.md",
+    "Sys Admin/Linux System Administrator's Production Guide.md",
+    "Sys Admin/Linux Command Flags.md",
+    "Vim/Vim CHEATSHEET.md",
+    "vim_cheatsheet.md",
+    "redis/Redis Pub-Sub.md",
+    "redis/Redis Data Structure.md",
+    "redis/Enterprise-Grade Redis Implementation.md",
+    "Sys Admin/File Permissions.md",
+    "Daily/2025-08-25.md",
+    "Go Bootcamp.md",
+    "Sys Admin",
+    "A leader.md",
+    "trick to use obsidian.md",
+    "Software Engineering Note.md",
+    "Personal Gromming.md",
+    "Distributed-System RoadMap.md",
+    "APIs/Pasted image 20250904114353.png",
+    "K8s/maxresdefault.jpg",
+    "redis/docker_redis_wsl_guide.md",
+    "redis",
+    "APIs/RPC.md",
+    "dist-sys-notes.pdf",
+    "APIs/Pasted image 20250904114334.png",
+    "Daily/2025-09-04.md",
+    "APIs",
+    "GO",
+    "K8s/Deep Dive K8s.md",
+    "Daily/2025-08-16.md",
+    "Daily/2025-08-13.md",
+    "Databases/Mongo.md",
+    "Vim",
+    "Databases/redis.md",
+    "Databases/mysql.md",
+    "Ngnix/Ngnix Cheatsheet.md",
+    "Databases",
+    "Ngnix",
+    "K8s/Kubernetes-architecture-968x1024.png",
+    "K8s",
+    "Java/jO3cAZZWn.png",
+    "Java/1_dK0sEcnhdaCxjkLuI1N4zQ.webp",
+    "Java/0_qTIkBrhl90wcE6oK.png",
+    "Java/Pasted image 20250420193055.png",
+    "docker/Docker-2.3.png",
+    "Java/Pasted image 20250425230623.png",
+    "Java"
+  ]
+}

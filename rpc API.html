@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPC Conceptual Visualization</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        header {
+            background: #4a6fa5;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 25px;
+        }
+        
+        .explanation {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .explanation h2 {
+            color: #4a6fa5;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .explanation p {
+            margin-bottom: 15px;
+        }
+        
+        .architecture {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .client-side, .server-side {
+            width: 45%;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .client-side {
+            border-left: 5px solid #6c5ce7;
+        }
+        
+        .server-side {
+            border-right: 5px solid #e84393;
+        }
+        
+        .side-title {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .client-side .side-title {
+            color: #6c5ce7;
+        }
+        
+        .server-side .side-title {
+            color: #e84393;
+        }
+        
+        .component {
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+        
+        .client-component {
+            border-left: 3px solid #6c5ce7;
+        }
+        
+        .server-component {
+            border-right: 3px solid #e84393;
+        }
+        
+        .network {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #4a6fa5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+        }
+        
+        .example-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .code-block {
+            background: #2d3436;
+            color: #dfe6e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            overflow-x: auto;
+            font-family: 'Consolas', monospace;
+        }
+        
+        .keyword {
+            color: #fd79a8;
+        }
+        
+        .function {
+            color: #74b9ff;
+        }
+        
+        .comment {
+            color: #636e72;
+        }
+        
+        .parameter {
+            color: #55efc4;
+        }
+        
+        .flow-control {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .btn {
+            background: #4a6fa5;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .btn:hover {
+            background: #385d8a;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .data-flow {
+            margin: 20px 0;
+            padding: 15px;
+            background: #e8f4fc;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .data-flow.active {
+            display: block;
+        }
+        
+        .flow-step {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background: #4a6fa5;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            margin-right: 10px;
+            font-size: 0.9rem;
+            line-height: 25px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #636e72;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .architecture {
+                flex-direction: column;
+            }
+            
+            .client-side, .server-side {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+            .network {
+                position: relative;
+                top: unset;
+                left: unset;
+                transform: unset;
+                margin: 20px auto;
+                width: fit-content;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Remote Procedure Call (RPC) Concept</h1>
+            <p class="subtitle">How distributed systems communicate seamlessly</p>
+        </header>
+        
+        <div class="content">
+            <div class="explanation">
+                <h2>What is RPC?</h2>
+                <p>Remote Procedure Call (RPC) is a protocol that allows a computer program to execute a procedure (subroutine or function) on another address space, typically on another computer on a shared network. This is done in a way that appears to the programmer as a normal local procedure call, abstracting away the complexities of network communication.</p>
+                
+                <div class="example-section">
+                    <h3>Example: Client requesting server to calculate factorial</h3>
+                    <div class="code-block">
+                        <span class="comment">// Client code (appears to call a local function)</span><br>
+                        <span class="keyword">let</span> result = <span class="function">calculateFactorial</span>(<span class="parameter">5</span>);<br>
+                        <span class="keyword">console</span>.<span class="function">log</span>(<span class="parameter">"Factorial of 5 is:"</span>, result);
+                    </div>
+                    
+                    <div class="code-block">
+                        <span class="comment">// Server code (actual implementation)</span><br>
+                        <span class="keyword">function</span> <span class="function">calculateFactorial</span>(n) {<br>
+                        &nbsp;&nbsp;<span class="keyword">if</span> (n === 0) <span class="keyword">return</span> 1;<br>
+                        &nbsp;&nbsp;<span class="keyword">return</span> n * <span class="function">calculateFactorial</span>(n - 1);<br>
+                        }
+                    </div>
+                </div>
+            </div>
+            
+            <div class="architecture">
+                <div class="client-side">
+                    <div class="side-title">Client Machine</div>
+                    <div class="component client-component">Client Application</div>
+                    <div class="component client-component">Client Stub (Proxy)</div>
+                    <div class="component client-component">RPC Runtime</div>
+                </div>
+                
+                <div class="network">Network</div>
+                
+                <div class="server-side">
+                    <div class="side-title">Server Machine</div>
+                    <div class="component server-component">Server Stub (Skeleton)</div>
+                    <div class="component server-component">RPC Runtime</div>
+                    <div class="component server-component">Server Implementation</div>
+                </div>
+            </div>
+            
+            <div class="flow-control">
+                <button class="btn" id="showFlow">Show Data Flow</button>
+            </div>
+            
+            <div class="data-flow" id="dataFlow">
+                <div class="flow-step">
+                    <span class="step-number">1</span>
+                    <strong>Client makes local procedure call:</strong> Client calls what appears to be a local function.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">2</span>
+                    <strong>Client stub marshals parameters:</strong> Client stub serializes parameters into a message format.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">3</span>
+                    <strong>Message sent over network:</strong> RPC runtime sends the message to the server machine.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">4</span>
+                    <strong>Server stub receives message:</strong> Server stub unpacks (unmarshals) the parameters.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">5</span>
+                    <strong>Server procedure execution:</strong> Server executes the actual procedure with the received parameters.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">6</span>
+                    <strong>Server stub marshals result:</strong> Server stub packages the result into a response message.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">7</span>
+                    <strong>Response sent back to client:</strong> RPC runtime sends the response back to the client.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">8</span>
+                    <strong>Client stub receives result:</strong> Client stub unpacks the result and returns it to the client application.
+                </div>
+                
+                <div class="flow-step">
+                    <span class="step-number">9</span>
+                    <strong>Client continues execution:</strong> Client application receives the result and continues as if from a local call.
+                </div>
+            </div>
+            
+            <div class="explanation">
+                <h2>Key RPC Concepts</h2>
+                <p><strong>Marshaling/Serialization:</strong> The process of converting data structures or object state into a format that can be transmitted over a network.</p>
+                <p><strong>Stubs:</strong> Proxies that make the remote call appear local. The client stub represents the server procedure locally, and the server stub receives the request and calls the actual server procedure.</p>
+                <p><strong>IDL (Interface Definition Language):</strong> A language used to define the interfaces between clients and servers, enabling them to communicate with each other.</p>
+                <p><strong>Network Transparency:</strong> The key goal of RPC is to make remote calls appear as local calls, hiding the complexity of network communication from the programmer.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>RPC Conceptual Visualization | Deep Explanation</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('showFlow').addEventListener('click', function() {
+            const dataFlow = document.getElementById('dataFlow');
+            dataFlow.classList.toggle('active');
+            
+            if (dataFlow.classList.contains('active')) {
+                this.textContent = 'Hide Data Flow';
+            } else {
+                this.textContent = 'Show Data Flow';
+            }
+        });
+    </script>
+</body>
+</html>
