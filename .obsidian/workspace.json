@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2025-09-06"
             }
+          },
+          {
+            "id": "0af8098b70b501f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sorting Algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sorting Algorithm"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,10 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "759e54707bcf110c",
+  "active": "0af8098b70b501f6",
   "lastOpenFiles": [
-    "_posts/Hello.md",
     "Daily/2025-09-06.md",
+    "Sorting Algorithm.md",
+    "_posts/Hello.md",
     "_posts",
     "Cold Mail Format.md",
     "Sys Admin/Linux System Administrator's Production Guide.md",
@@ -217,7 +233,6 @@
     "Daily/2025-08-13.md",
     "Databases/Mongo.md",
     "Vim",
-    "Databases/redis.md",
     "Databases",
     "Ngnix",
     "K8s/Kubernetes-architecture-968x1024.png",
