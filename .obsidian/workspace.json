@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Hello.md",
+                "file": "Daily/2025-09-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hello"
+              "title": "2025-09-06"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "759e54707bcf110c",
   "lastOpenFiles": [
-    "Daily/2025-09-06.md",
     "_posts/Hello.md",
+    "Daily/2025-09-06.md",
     "_posts",
     "Cold Mail Format.md",
     "Sys Admin/Linux System Administrator's Production Guide.md",
