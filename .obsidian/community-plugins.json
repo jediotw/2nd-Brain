@@ -1,4 +1,6 @@
 [
   "templater-obsidian",
-  "obsidian-hackernews"
+  "obsidian-hackernews",
+  "ink",
+  "obsidian-git"
 ]
