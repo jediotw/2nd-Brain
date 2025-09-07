@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "759e54707bcf110c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2025-09-06.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-09-06"
-            }
-          },
-          {
             "id": "3ca093981b1ba60a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-09-08.md",
+                "file": "Distributed-System RoadMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-08"
+              "title": "Distributed-System RoadMap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,9 +182,10 @@
   },
   "active": "3ca093981b1ba60a",
   "lastOpenFiles": [
-    "Website Post Format.md",
-    "Daily/2025-09-08.md",
     "Daily/2025-09-06.md",
+    "Distributed-System RoadMap.md",
+    "Daily/2025-09-08.md",
+    "Website Post Format.md",
     "Sorting Algorithm 1.md",
     "Sorting Algorithm.md",
     "_posts/Hello.md",
@@ -220,7 +206,6 @@
     "trick to use obsidian.md",
     "Software Engineering Note.md",
     "Personal Gromming.md",
-    "Distributed-System RoadMap.md",
     "APIs/Pasted image 20250904114353.png",
     "K8s/maxresdefault.jpg",
     "redis/docker_redis_wsl_guide.md",
