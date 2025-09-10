@@ -1,0 +1,63 @@
+# Daily Note
+
+## <span style="color: #FF6347;">Quote of the Day</span>
+
+> 
+
+## <span style="color: #4682B4;">Gym Workout Plan</span>
+
+- 
+
+## <span style="color: #32CD32;">Healthy Meals Planning of the Day</span>
+
+| Meal      | Plan |
+| --------- | ---- |
+| Breakfast |      |
+| Lunch     |      |
+| Dinner    |      |
+
+## <span style="color: #FFD700;">Today's Top 3 Priorities</span>
+
+- [ ] 
+- [ ] 
+- [ ] 
+
+## <span style="color: #6A5ACD;">Project Task, Bugs, Git Commit</span>
+
+- **Project Task:** 
+- **Bugs:** 
+- [ ] **Git Commit:** 
+
+## <span style="color: #FF4500;">Meetings</span>
+
+| Time | Topic | Notes |
+| ---- | ----- | ----- |
+|      |       |       |
+
+## <span style="color: #20B2AA;">Groceries</span>
+
+- [ ] 
+
+## <span style="color: #DA70D6;">Expenditure on Items</span>
+
+| Item | Amount |
+| ---- | ------ |
+|      |        |
+|      |        |
+| **Sum** |        |
+
+## <span style="color: #3CB371;">Income</span>
+
+| Source | Amount |
+| ------ | ------ |
+|        |        |
+|        |        |
+| **Sum**  |        |
+
+## <span style="color: #87CEEB;">Thoughts of the Day</span>
+
+-
+
+
+
+
