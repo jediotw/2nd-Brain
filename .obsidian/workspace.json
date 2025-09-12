@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-09-11.md",
+                "file": "Daily/2025-09-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-11"
+              "title": "2025-09-12"
             }
           }
         ]
@@ -182,10 +182,11 @@
   },
   "active": "3ca093981b1ba60a",
   "lastOpenFiles": [
+    "Daily/2025-09-11.md",
+    "Daily/2025-09-12.md",
     "Sys Admin/Linux Command Flags.md",
     "Sys Admin/File Permissions.md",
     "docker/Docker & Docker Compose production commands and their variations.md",
-    "Daily/2025-09-11.md",
     "Daily/2025-09-10.md",
     "Java/Java.md",
     "Java/jO3cAZZWn.png",
@@ -214,7 +215,6 @@
     "Sys Admin",
     "A leader.md",
     "trick to use obsidian.md",
-    "Software Engineering Note.md",
     "APIs/Pasted image 20250904114353.png",
     "K8s/maxresdefault.jpg",
     "redis",
