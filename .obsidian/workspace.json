@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-09-12.md",
+                "file": "Daily/2025-09-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-12"
+              "title": "2025-09-16"
             }
           }
         ]
@@ -182,8 +182,14 @@
   },
   "active": "3ca093981b1ba60a",
   "lastOpenFiles": [
-    "Daily/2025-09-11.md",
+    "GO/receiverfxn.md",
+    "Daily/2025-09-16.md",
+    "GO/map.md",
+    "GO/fxn.md",
+    "GO/Data Types.md",
+    "GO/day 6.md",
     "Daily/2025-09-12.md",
+    "Daily/2025-09-11.md",
     "Sys Admin/Linux Command Flags.md",
     "Sys Admin/File Permissions.md",
     "docker/Docker & Docker Compose production commands and their variations.md",
@@ -193,7 +199,6 @@
     "Java/1_dK0sEcnhdaCxjkLuI1N4zQ.webp",
     "Java/0_qTIkBrhl90wcE6oK.png",
     "Go Bootcamp.md",
-    "GO/day 6.md",
     "GO/Pasted image 20250910070600.png",
     "GO/Pasted image 20250910070522.png",
     "Distributed-System RoadMap.md",
@@ -209,12 +214,7 @@
     "Vim/Vim CHEATSHEET.md",
     "vim_cheatsheet.md",
     "redis/Redis Pub-Sub.md",
-    "redis/Redis Data Structure.md",
-    "redis/Enterprise-Grade Redis Implementation.md",
-    "Daily/2025-08-25.md",
     "Sys Admin",
-    "A leader.md",
-    "trick to use obsidian.md",
     "APIs/Pasted image 20250904114353.png",
     "K8s/maxresdefault.jpg",
     "redis",
