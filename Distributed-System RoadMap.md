@@ -175,25 +175,25 @@
 
 ### White Papers for Foundational Distributed Systems
 
-|#|System Name|Organization|White Paper / Source|
-|---|---|---|---|
-|1|Google Zanzibar|Google|[Zanzibar: Google’s Consistent, Global Authorization System](https://research.google/pubs/zanzibar-googles-consistent-global-authorization-system/)|
-|2|Amazon DynamoDB|Amazon|[Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)|
-|3|Meta GorillaDB|Meta (Facebook)|[Gorilla: A Fast, Scalable, In-Memory Time Series Database](https://research.facebook.com/publications/gorilla-a-fast-scalable-in-memory-time-series-database/)|
-|4|Google Monarch|Google|[Monarch: Google’s Planet-Scale In-Memory Time Series Database](https://research.google/pubs/monarch-googles-planet-scale-in-memory-time-series-database/)|
-|5|Meta Memcached|Meta (Facebook)|[Scaling Memcache at Facebook](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala)|
-|6|Meta TAO|Meta (Facebook)|[TAO: Facebook’s Distributed Data Store for the Social Graph](https://www.usenix.org/conference/atc13/technical-sessions/presentation/bronson)|
-|7|Google File System|Google|[The Google File System](https://research.google/pubs/the-google-file-system/)|
-|8|Google MapReduce|Google|[MapReduce: Simplified Data Processing on Large Clusters](https://research.google/pubs/mapreduce-simplified-data-processing-on-large-clusters/)|
-|9|Google Bigtable|Google|[Bigtable: A Distributed Storage System for Structured Data](https://research.google/pubs/bigtable-a-distributed-storage-system-for-structured-data/)|
-|10|Google Megastore|Google|[Megastore: Providing Scalable, Highly Available Storage for Interactive Services](https://research.google/pubs/megastore-providing-scalable-highly-available-storage-for-interactive-services/)|
-|11|Google Chubby|Google|[The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google/pubs/chubby-lock-service-for-loosely-coupled-distributed-systems/)|
-|12|Google Dapper|Google|[Dapper: A Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/)|
-|13|Google Pregel|Google|[Pregel: A System for Large-Scale Graph Processing](https://research.google/pubs/pregel-a-system-for-large-scale-graph-processing/)|
-|14|Amazon AuroraDB|Amazon|[Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases](https://dl.acm.org/doi/10.1145/3035918.3056101)|
-|15|FoundationDB|Apple|[FoundationDB: A Distributed Unbundled Transactional Key Value Store](https://www.foundationdb.org/files/fdb-paper.pdf)|
-|16|Apache Cassandra|Apache|[Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)|
-|17|Meta Minesweeper|Meta (Facebook)|[Minesweeper: A Storage System for Extraneous Data](https://research.facebook.com/publications/minesweeper-a-storage-system-for-extraneous-data/)|
-|18|Google Spanner|Google|[Spanner: Google’s Globally-Distributed Database](https://research.google/pubs/spanner-googles-globally-distributed-database/)|
-|19|Meta FlexiRaft|Meta|[FlexiRaft (ConsensusDay Presentation)](https://www.youtube.com/watch?v=6tUMfmG1y8A)|
-|20|TikTok Monolith|TikTok|[How TikTok's Architecture Works (Engineering Blog)](https://blog.bytebytego.com/p/how-tiktoks-architecture-works)|
+| #   | System Name        | Organization    | White Paper / Source                                                                                                                                                                             |
+| --- | ------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Google Zanzibar    | Google          | [Zanzibar: Google’s Consistent, Global Authorization System](https://research.google/pubs/zanzibar-googles-consistent-global-authorization-system/)                                              |
+| 2   | Amazon DynamoDB    | Amazon          | [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)                                                                       |
+| 3   | Meta GorillaDB     | Meta (Facebook) | [Gorilla: A Fast, Scalable, In-Memory Time Series Database](https://research.facebook.com/publications/gorilla-a-fast-scalable-in-memory-time-series-database/)                                  |
+| 4   | Google Monarch     | Google          | [Monarch: Google’s Planet-Scale In-Memory Time Series Database](https://research.google/pubs/monarch-googles-planet-scale-in-memory-time-series-database/)                                       |
+| 5   | Meta Memcached     | Meta (Facebook) | [Scaling Memcache at Facebook](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala)                                                                                |
+| 6   | Meta TAO           | Meta (Facebook) | [TAO: Facebook’s Distributed Data Store for the Social Graph](https://www.usenix.org/conference/atc13/technical-sessions/presentation/bronson)                                                   |
+| 7   | Google File System | Google          | [The Google File System](https://research.google/pubs/the-google-file-system/)                                                                                                                   |
+| 8   | Google MapReduce   | Google          | [MapReduce: Simplified Data Processing on Large Clusters](https://research.google/pubs/mapreduce-simplified-data-processing-on-large-clusters/)                                                  |
+| 9   | Google Bigtable    | Google          | [Bigtable: A Distributed Storage System for Structured Data](https://research.google/pubs/bigtable-a-distributed-storage-system-for-structured-data/)                                            |
+| 10  | Google Megastore   | Google          | [Megastore: Providing Scalable, Highly Available Storage for Interactive Services](https://research.google/pubs/megastore-providing-scalable-highly-available-storage-for-interactive-services/) |
+| 11  | Google Chubby      | Google          | [The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google/pubs/chubby-lock-service-for-loosely-coupled-distributed-systems/)                                     |
+| 12  | Google Dapper      | Google          | [Dapper: A Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/)                                |
+| 13  | Google Pregel      | Google          | [Pregel: A System for Large-Scale Graph Processing](https://research.google/pubs/pregel-a-system-for-large-scale-graph-processing/)                                                              |
+| 14  | Amazon AuroraDB    | Amazon          | [Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases](https://dl.acm.org/doi/10.1145/3035918.3056101)                                                     |
+| 15  | FoundationDB       | Apple           | [FoundationDB: A Distributed Unbundled Transactional Key Value Store](https://www.foundationdb.org/files/fdb-paper.pdf)                                                                          |
+| 16  | Apache Cassandra   | Apache          | [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)                                                             |
+| 17  | Meta Minesweeper   | Meta (Facebook) | [Minesweeper: A Storage System for Extraneous Data](https://research.facebook.com/publications/minesweeper-a-storage-system-for-extraneous-data/)                                                |
+| 18  | Google Spanner     | Google          | [Spanner: Google’s Globally-Distributed Database](https://research.google/pubs/spanner-googles-globally-distributed-database/)                                                                   |
+| 19  | Meta FlexiRaft     | Meta            | [FlexiRaft (ConsensusDay Presentation)](https://www.youtube.com/watch?v=6tUMfmG1y8A)                                                                                                             |
+| 20  | TikTok Monolith    | TikTok          | [How TikTok's Architecture Works (Engineering Blog)](https://blog.bytebytego.com/p/how-tiktoks-architecture-works)                                                                               |

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-09-16.md",
+                "file": "Distributed-System RoadMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-16"
+              "title": "Distributed-System RoadMap"
             }
           }
         ]
@@ -182,8 +182,23 @@
   },
   "active": "3ca093981b1ba60a",
   "lastOpenFiles": [
-    "GO/receiverfxn.md",
+    "Paper Shelf/Meta finding a needle in haystack.pdf",
+    "Paper Shelf/cockroachdb.pdf",
+    "Paper Shelf/LakeHouse.pdf",
+    "Paper Shelf/Amazon DynamoDB.pdf",
+    "Paper Shelf/Tiktok Monolith.pdf",
+    "Paper Shelf/Meta FlexiRaft.pdf",
+    "Paper Shelf/Spanner true time and CAP by google.pdf",
+    "Paper Shelf/Google Spanner.pdf",
+    "Paper Shelf/Apache Cassandra.pdf",
+    "Paper Shelf/Apple FoundationDB.pdf",
+    "Paper Shelf/Amazon Aurora.pdf",
+    "A leader.md",
+    "Cold Mail Format.md",
+    "Deep Dive in Database in distributed computing.md",
+    "Distributed-System RoadMap.md",
     "Daily/2025-09-16.md",
+    "GO/receiverfxn.md",
     "GO/map.md",
     "GO/fxn.md",
     "GO/Data Types.md",
@@ -201,32 +216,17 @@
     "Go Bootcamp.md",
     "GO/Pasted image 20250910070600.png",
     "GO/Pasted image 20250910070522.png",
-    "Distributed-System RoadMap.md",
     "Daily/2025-09-06.md",
     "Daily/2025-09-08.md",
     "Website Post Format.md",
     "Sorting Algorithm 1.md",
     "Sorting Algorithm.md",
     "_posts/Hello.md",
-    "_posts",
-    "Cold Mail Format.md",
     "Sys Admin/Linux System Administrator's Production Guide.md",
-    "Vim/Vim CHEATSHEET.md",
-    "vim_cheatsheet.md",
-    "redis/Redis Pub-Sub.md",
-    "Sys Admin",
     "APIs/Pasted image 20250904114353.png",
     "K8s/maxresdefault.jpg",
-    "redis",
-    "dist-sys-notes.pdf",
     "APIs/Pasted image 20250904114334.png",
-    "APIs",
-    "GO",
-    "Vim",
-    "Databases",
-    "Ngnix",
     "K8s/Kubernetes-architecture-968x1024.png",
-    "K8s",
     "Java/Pasted image 20250420193055.png"
   ]
 }
