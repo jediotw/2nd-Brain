@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/DSA revision.md",
+                "file": "Daily/2025-09-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DSA revision"
+              "title": "Outline of 2025-09-22"
             }
           },
           {
@@ -182,8 +182,9 @@
   },
   "active": "3ca093981b1ba60a",
   "lastOpenFiles": [
-    "Java/Java.md",
+    "Paper Shelf/memcahched by facebook.pdf",
     "Daily/2025-09-22.md",
+    "Java/Java.md",
     "Java/1_dK0sEcnhdaCxjkLuI1N4zQ.webp",
     "Java/0_qTIkBrhl90wcE6oK.png",
     "Daily/2025-09-18.md",
@@ -222,7 +223,6 @@
     "Website Post Format.md",
     "Sorting Algorithm 1.md",
     "Sorting Algorithm.md",
-    "_posts/Hello.md",
     "APIs/Pasted image 20250904114353.png",
     "K8s/maxresdefault.jpg",
     "APIs/Pasted image 20250904114334.png",
