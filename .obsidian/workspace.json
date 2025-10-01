@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-09-22.md",
+                "file": "Daily/2025-10-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-22"
+              "title": "2025-10-01"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2025-09-22.md",
+                "file": "Paper Shelf/memcahched by facebook.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-22"
+              "title": "Outline of memcahched by facebook"
             }
           },
           {
@@ -183,6 +183,7 @@
   "active": "3ca093981b1ba60a",
   "lastOpenFiles": [
     "Paper Shelf/memcahched by facebook.pdf",
+    "Daily/2025-10-01.md",
     "Daily/2025-09-22.md",
     "Java/Java.md",
     "Java/1_dK0sEcnhdaCxjkLuI1N4zQ.webp",
@@ -198,7 +199,6 @@
     "Paper Shelf/Spanner true time and CAP by google.pdf",
     "Paper Shelf/Google Spanner.pdf",
     "Paper Shelf/Apache Cassandra.pdf",
-    "Paper Shelf/Apple FoundationDB.pdf",
     "A leader.md",
     "Cold Mail Format.md",
     "Deep Dive in Database in distributed computing.md",
@@ -222,7 +222,6 @@
     "Daily/2025-09-08.md",
     "Website Post Format.md",
     "Sorting Algorithm 1.md",
-    "Sorting Algorithm.md",
     "APIs/Pasted image 20250904114353.png",
     "K8s/maxresdefault.jpg",
     "APIs/Pasted image 20250904114334.png",
