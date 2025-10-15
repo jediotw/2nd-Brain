@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5a43022c942f30c8",
+        "id": "fa9598e381fefc71",
         "type": "tabs",
         "children": [
           {
-            "id": "3ca093981b1ba60a",
+            "id": "7bda7d10747138a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2025-10-15.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-10-15"
+              "title": "New tab"
             }
           }
         ]
@@ -180,10 +176,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ca093981b1ba60a",
+  "active": "7bda7d10747138a9",
   "lastOpenFiles": [
-    "Sys Admin/Linux Command Flags.md",
     "Daily/2025-10-15.md",
+    "Intro/Interview Introdution.md",
+    "Intro",
+    "Sys Admin/Linux Command Flags.md",
     "docker/Docker & Docker Compose production commands and their variations.md",
     "Daily/2025-10-01.md",
     "Paper Shelf/memcahched by facebook.pdf",
@@ -201,7 +199,6 @@
     "Paper Shelf/Meta FlexiRaft.pdf",
     "Paper Shelf/Spanner true time and CAP by google.pdf",
     "Paper Shelf/Google Spanner.pdf",
-    "Paper Shelf/Apache Cassandra.pdf",
     "A leader.md",
     "Cold Mail Format.md",
     "Deep Dive in Database in distributed computing.md",
@@ -222,7 +219,6 @@
     "Daily/2025-09-06.md",
     "Daily/2025-09-08.md",
     "Website Post Format.md",
-    "Sorting Algorithm 1.md",
     "APIs/Pasted image 20250904114353.png",
     "K8s/maxresdefault.jpg",
     "APIs/Pasted image 20250904114334.png",
