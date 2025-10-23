@@ -21,7 +21,7 @@
    1. Definition: Multiple independent computers working as one system  
    2. Types: Client-server, peer-to-peer, master-slave, decentralized  
 2. Characteristics & Goals  
-   1. Scalability, Fault Tolerance, Consistency, Availability, Partition Tolerance
+	   1. Scalability, Fault Tolerance, Consistency, Availability, Partition Tolerance
 
 ### **3\. Communication in Distributed Systems**
 
