@@ -91,3 +91,65 @@
     - YouTube Shorts
 
 4. **Document your growth, not just results.**
+
+**Natural games that compound:**
+
+- Coding
+    
+- Building products
+    
+- Teaching
+    
+- Fitness
+    
+- Writing
+    
+- Content creation
+    
+- Entrepreneurship
+    
+- System design
+    
+- Open-source
+    
+- Learning + reading
+    
+- Mentoring
+    
+- Personal brand
+    
+- Networking
+    
+- Good relationships
+    
+- Sleep & health
+    
+- Mini projects
+    
+- Automations
+    
+- Design skills
+    
+- Communication skills
+    
+- Career capital
+    
+- Investing
+    
+- Freelancing
+    
+- Documentation
+    
+- Community building
+    
+- Journaling
+    
+- Mental models
+    
+- Public speaking
+    
+- Note-taking systems
+    
+- Experimentation
+    
+- Long-term thinking
