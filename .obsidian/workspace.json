@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-12-08.md",
+                "file": "Daily/2025-12-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-08"
+              "title": "2025-12-16"
             }
           }
         ],
@@ -197,11 +197,16 @@
   },
   "active": "074c6dd7a432f420",
   "lastOpenFiles": [
+    "document.pdf",
+    "Daily/2025-12-16.md",
+    "Deep Dive in Database in distributed computing.md",
+    "CPH.pdf",
+    "Algorithms/PTR.md",
+    "Algorithms/DSA revision.md",
     "Daily/2025-12-08.md",
     "Daily/2025-11-30.md",
     "5 years (by 2030).md",
     "Distributed-System RoadMap.md",
-    "Deep Dive in Database in distributed computing.md",
     "Templates/Consistency.md",
     "Daily/2025-10-24.md",
     "Daily/2025-10-15.md",
@@ -223,7 +228,6 @@
     "Paper Shelf/Tiktok Monolith.pdf",
     "Paper Shelf/Meta FlexiRaft.pdf",
     "Paper Shelf/Spanner true time and CAP by google.pdf",
-    "Paper Shelf/Google Spanner.pdf",
     "A leader.md",
     "Cold Mail Format.md",
     "Daily/2025-09-16.md",
@@ -231,10 +235,6 @@
     "GO/map.md",
     "GO/fxn.md",
     "GO/Data Types.md",
-    "GO/day 6.md",
-    "Daily/2025-09-12.md",
-    "Daily/2025-09-11.md",
-    "Sys Admin/File Permissions.md",
     "Java/jO3cAZZWn.png",
     "GO/Pasted image 20250910070600.png",
     "GO/Pasted image 20250910070522.png",
