@@ -1,0 +1,2 @@
+Understand how to use Jenkins with Ansible?
+Learn about inventory files and managing remote servers?
